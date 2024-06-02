@@ -1,0 +1,26 @@
+body {
+    overflow: hidden;
+    background-color: #f0f0f0; /* رنگ پس زمینه صفحه */
+  }
+
+ .box {
+  animation: color-change 1s linear infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: yellow;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
+}

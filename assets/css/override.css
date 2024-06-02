@@ -1,0 +1,7 @@
+@font-face {
+    font-family: noto-sans-arabic;
+    src: url("../fonts/NotoSansArabic-Bold.ttf");
+}
+*{
+    font-family: noto-sans-arabic;
+}
